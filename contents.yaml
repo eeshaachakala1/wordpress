@@ -1,10 +1,8 @@
 ---
 theme:
-    name: vlog
-    url: https://www.ecloudcontrol.com/wp-content/uploads/2021/06/vlog.zip
-    #name: Avada
-    #url: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/themeforest-eAydLluh-avada-responsive-multipurpose-theme-wordpress-theme-6.2.3.zip
-    #name: magazine-news-byte-premium
-    #url: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/magazine-news-byte-premium-2-9-2.zip
+        - name: vlog
+          url: https://www.ecloudcontrol.com/wp-content/uploads/2021/06/vlog.zip
+        - name: vlog-child
+          url: https://www.ecloudcontrol.com/wp-content/uploads/2021/06/vlog-child.zip
 plugins:
    - https://www.ecloudcontrol.com/wp-content/uploads/2021/06/vlog-buddy.zip
