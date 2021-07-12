@@ -5,13 +5,13 @@ app:
 
 build:
   version: 5.5
-  env: DEV
+  env: PROD
   build_file: none
   output_files: output/*.zip
   image_template: wordpress-5.5
 
 deploy:
-  context: anushab7/DEV
+  context: anushab7/PROD
   replicas: 1
   type: statefulset
   port:
