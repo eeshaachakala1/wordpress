@@ -1,7 +1,7 @@
 app:
   name: wordpress
   code: wordpress
-  notify: aborra@ecloudcontrol.com
+  notify: eachakala@ecloudcontrol.com
 
 build:
   version: 5.5
@@ -11,7 +11,7 @@ build:
   image_template: wordpress-5.5
 
 deploy:
-  context: anushab7/DEV
+  context: eeshaachakala1/DEV
   replicas: 1
   type: statefulset
   port:
@@ -42,5 +42,5 @@ properties:
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD_KEY
   #Generate hash at https://ehikioya.com/wordpress-password-hash-generator/
-  ADMIN_PASSWORD_HASH: $P$Bcs.IJXgM3Pw/CpP6hB8.kvDp2jmPI1
+  ADMIN_PASSWORD_HASH: $P$Bh99BMFWUJP1bP2sbiCiQxrNfEX7N6.
   revision : 1
